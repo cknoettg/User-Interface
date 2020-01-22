@@ -93,6 +93,8 @@ header {
 	padding: 40px;
 	columns: 2;
 	text-align: right;
+	position: relative;
+	left: 5%;
 }
 
 h1 {
