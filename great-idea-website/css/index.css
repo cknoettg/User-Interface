@@ -85,7 +85,7 @@ img {
 
 .logo {
 	position: absolute;
-	right: 15%;
+	right: 10%;
 }
 
 header {
@@ -121,11 +121,6 @@ button {
 	margin-left: auto;
 	margin-right: auto;
 	
-}
-
-.header-image {
-	/* position: absolute;
-	right: 20%; */
 }
 
 section {
