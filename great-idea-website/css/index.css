@@ -69,15 +69,30 @@ html {
 	margin: 5%;
 }
 nav {
+	position: fixed;
+	/*overflow: scroll;*/
 	display: inline-block;
+	background-color: blue;
 	padding: 20px;
-	/*text-align: center;*/
 	width: 100%;
+	top: 0;
+	z-index: 0;
+	background-image: url("../img/logo.png");
 }
 
 a {
 	padding: 50px;
 	color: lightgray;
+}
+
+@keyframes example {
+	from {color: lightgrey;}
+	to {color: red;}
+  }
+
+a:hover {
+	animation-name: example;
+	animation-duration: 5s;
 }
 
 img {
@@ -101,7 +116,7 @@ header {
 h1 {
 	display: inline-block;
 	vertical-align: top;
-	font-size: 96px;
+	font-size: 90px;
 	text-align: center;
 	padding: 40px;
 }
